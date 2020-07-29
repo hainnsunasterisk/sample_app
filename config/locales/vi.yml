@@ -4,12 +4,33 @@ vi:
       app_title: "Ứng dụng mẫu"
       english: "Tiếng Anh"
       vietnamese: "Tiếng Việt"
+    header:
+      app_title: "Ứng dụng mẫu"
+      about: "Giới thiệu"
+      contact: "Liên hệ" 
+      help: "Trợ giúp"
+      home: "Trang chủ"
+      login: "Đăng nhập"
+      languages: "Ngôn ngữ"
+      english: "Tiếng Anh"
+      vietnamese: "Tiếng Việt"
+    footer:
+      ruby_on_rails: "Ruby On Rails Hướng dẫn"
+      author: "Hainn"
+      about: "Giới thiệu"
+      contact: "Liên hệ"
+      news: "Tin tức"
   static_pages:
     home:
       home_title: "Trang chủ"
       home_description_title: "Trang chủ"
       home_description_detail_html: "Đây là một trang dành cho %{link} ứng dụng mẫu."
       ruby_on_rails: "Ruby On Rails hướng dẫn"
+      about: "Giới thiệu"
+      contact: "Liên hệ"
+      help: "Trợ giúp"
+      home: "Trang chủ"
+      signup : "ĐĂNG NHẬP NGAY!"
     help:
       help_title: "Trợ giúp"
       help_description_title: "Trợ giúp"
@@ -19,7 +40,7 @@ vi:
     about:
       about_title: "Giới thiệu"
       about_description_title: "Đây là một số nguồn và thông tin bổ sung: "
-      about_description_tutorial: "Family tutorial: "
+      about_description_tutorial: "Cộng đồng RoR "
       about_description_book: "Sách: "
       about_description_series: "Loạt hướng dẫn: "
       about_description_ror: "Ruby on Rails: "
