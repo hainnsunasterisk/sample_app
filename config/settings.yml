@@ -1,0 +1,15 @@
+link:
+  static_pages:
+    home:
+      link_ruby_on_rails: https://www.railstutorial.org/
+    help:
+      link_ruby_on_rails_help: https://www.railstutorial.org/help
+      link_ruby_on_rails_book: https://www.railstutorial.org/book
+    about:
+      link_ruby_on_rails_tutorial: https://www.railstutorial.org
+      link_learn_enough: https://www.learnenough.com
+      link_about_description_book: https://www.railstutorial.org/book
+      link_about_description_series: https://screencasts.railstutorial.org
+      link_about_description_ror: https://rubyonrails.org
+    contact:
+      link_contact_page: https://www.railstutorial.org/contact

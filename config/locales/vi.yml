@@ -1,5 +1,30 @@
 vi:
-  hello: Xin chao
-  welcome: Chào mừng!
-  bye: Tạm biệt!
-  some_error: Một điều gì đó đã xảy ra...
+  layouts:
+    application:
+      app_title: "Ứng dụng mẫu"
+      english: "Tiếng Anh"
+      vietnamese: "Tiếng Việt"
+  static_pages:
+    home:
+      home_title: "Trang chủ"
+      home_description_title: "Trang chủ"
+      home_description_detail_html: "Đây là một trang dành cho %{link} ứng dụng mẫu."
+      ruby_on_rails: "Ruby On Rails hướng dẫn"
+    help:
+      help_title: "Trợ giúp"
+      help_description_title: "Trợ giúp"
+      help_description_detail_html: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại %{link_help}. Để nhận trợ giúp về ứng dụng mẫu này, hãy xem %{link_book}."
+      ruby_on_rails_help: "Rails Tutorial trợ giúp"
+      ruby_on_rails_book_html: "<em>Ruby on Rails Tutorial</em> sách"
+    about:
+      about_title: "Giới thiệu"
+      about_description_title: "Đây là một số nguồn và thông tin bổ sung: "
+      about_description_tutorial: "Family tutorial: "
+      about_description_book: "Sách: "
+      about_description_series: "Loạt hướng dẫn: "
+      about_description_ror: "Ruby on Rails: "
+      about_description_end: "Đây là ứng dụng mẫu cho hướng dẫn."
+    contact:
+      contact_title: "Liên lạc"
+      contact_description_title: "liên hệ ở đây: "
+      contact_page: "Liên hệ với chúng tôi"
