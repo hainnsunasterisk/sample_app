@@ -9,8 +9,8 @@
   </head>
 
   <body>
-    <%= link_to "English", locale: "en" %>
-    <%= link_to "Vietnamese", locale: "vi" %>
+    <%= link_to t(".english"), locale: :en %>
+    <%= link_to t(".vietnamese"), locale: :vi %>
     <%= yield %>
   </body>
 </html>
