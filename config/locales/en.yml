@@ -1,5 +1,30 @@
 en:
-  hello: Hello world
-  welcome: welcome to RoR
-  bye: Bye bye
-  some_error: ERROR
+  layouts:
+    application:
+      app_title: "Sample App"
+      english: "English"
+      vietnamese: "Vietnamese"
+  static_pages:
+    home:
+      home_title: "Home"
+      home_description_title: "Home Page"
+      home_description_detail_html: "This is the home page for the %{link} sample application."
+      ruby_on_rails: "Ruby On Rails Tutorials"
+    help:
+      help_title: "Help"
+      help_description_title: "Help Page"
+      help_description_detail_html: "Get help on the Ruby on Rails Tutorial at the %{link_help}. To get help on this sample app, see the %{link_book}."
+      ruby_on_rails_help: "Rails Tutorial help section"
+      ruby_on_rails_book_html: "<em>Ruby on Rails Tutorial</em> book"
+    about:
+      about_title: "About"
+      about_description_title: "These are some extra sources and information: "
+      about_description_tutorial: "Family tutorial: "
+      about_description_book: "Book: "
+      about_description_series: "Series: "
+      about_description_ror: "Ruby on Rails: "
+      about_description_end: "This is the sample app for the tutorial."
+    contact:
+      contact_title: "Contact"
+      contact_description_title: "Contact here: "
+      contact_page: "Contact page"
