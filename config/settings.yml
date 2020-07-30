@@ -1,4 +1,8 @@
 link:
+  layout:
+    footer:
+      author: "https://github.com/hainnsunasterisk"
+      news: "https://news.railstutorial.org/"
   static_pages:
     home:
       link_ruby_on_rails: https://www.railstutorial.org/
@@ -13,3 +17,7 @@ link:
       link_about_description_ror: https://rubyonrails.org
     contact:
       link_contact_page: https://www.railstutorial.org/contact
+variables:
+  static_pages:
+    home:
+      image_width: 200px
