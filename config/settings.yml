@@ -21,3 +21,12 @@ variables:
   static_pages:
     home:
       image_width: 200px
+validations:
+  user:
+    email_regex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
+    name_minlength: 5
+    name_maxlength: 50
+    email_minlength: 15
+    email_maxlength: 255
+    password_minlength: 6
+    password_maxlength: 15
