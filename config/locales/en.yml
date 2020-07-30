@@ -49,3 +49,19 @@ en:
       contact_title: "Contact"
       contact_description_title: "Contact here: "
       contact_page: "Contact page"
+  users:
+    helpers:
+      link_image: "https://secure.gravatar.com/avatar/%{gravatar_id}"
+    new:
+      signup: "Sign Up"
+      username: "Username"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Confirm Password"
+      olduser: "Already registered? "
+      login: "Click here !!"
+    create:
+      flash: Welcome to the Sample App, %{username}!
+    show:
+      flash: "User not found !"
+      unauthorized: "You must be logged in first !!"
