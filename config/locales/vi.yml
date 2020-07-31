@@ -14,6 +14,11 @@ vi:
       languages: "Ngôn ngữ"
       english: "Tiếng Anh"
       vietnamese: "Tiếng Việt"
+      account: "Tài khoản"
+      users: "Người dùng"
+      logout: "Đăng xuất"
+      profile: "Hồ sơ"
+      settings: "Cài đặt"
     footer:
       ruby_on_rails: "Ruby On Rails Hướng dẫn"
       author: "Hainn"
@@ -65,3 +70,15 @@ vi:
     show:
       flash: "Không tìm thấy người dùng!"
       unauthorized: "Bạn phải đăng nhập trước!!"
+  sessions:
+    new:
+      login: "Đăng nhập"
+      email: "Địa chỉ mail"
+      password: "Mật khẩu"
+      newuser: "Tạo mới?"
+      signup: "Đăng ký ngay!"
+    create:
+      success: Đăng nhập thành công, XIN CHÀO %{username}!
+      danger: Đã có một lỗi xảy ra với tài khoản của bạn
+    destroy: 
+      flash: "Đăng xuất thành công!!"
