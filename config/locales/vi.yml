@@ -49,3 +49,19 @@ vi:
       contact_title: "Liên lạc"
       contact_description_title: "liên hệ ở đây: "
       contact_page: "Liên hệ với chúng tôi"
+  users:
+    helpers:
+      link_image: "https://secure.gravatar.com/avatar/%{gravatar_id}"
+    new:
+      signup: "ĐĂNG KÝ"
+      username: "Tài khoản"
+      email: "Đỉa chỉ mail"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+      olduser: "Bạn đã có tài khoản? "
+      login: "Bấm vào đây !!"
+    create:
+      flash: Chào mừng đến với chúng tôi, %{username}!
+    show:
+      flash: "Không tìm thấy người dùng!"
+      unauthorized: "Bạn phải đăng nhập trước!!"

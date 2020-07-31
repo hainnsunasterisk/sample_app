@@ -1,0 +1,9 @@
+.debug_dump {
+  clear: both;
+  float: left;
+  width: 100%;
+  padding: 10px;
+  margin-top: 45px;
+  @include box_sizing;
+  background-color: $gray-medium;
+}
