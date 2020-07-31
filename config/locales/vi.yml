@@ -35,7 +35,7 @@ vi:
       contact: "Liên hệ"
       help: "Trợ giúp"
       home: "Trang chủ"
-      signup : "ĐĂNG NHẬP NGAY!"
+      signup : "ĐĂNG KÝ NGAY!"
     help:
       help_title: "Trợ giúp"
       help_description_title: "Trợ giúp"
@@ -67,6 +67,7 @@ vi:
       login: "Bấm vào đây !!"
     create:
       flash: Chào mừng đến với chúng tôi, %{username}!
+      error: "Thông tin không hợp lệ !!"
     show:
       flash: "Không tìm thấy người dùng!"
       unauthorized: "Bạn phải đăng nhập trước!!"

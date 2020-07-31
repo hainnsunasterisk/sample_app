@@ -12,7 +12,8 @@ class UsersController < ApplicationController
       flash[:success] = t ".flash", username: @user.name
       redirect_to user_path @user
     else
-      render :new
+      flash[:warning] = @user.errors.full_messages[0]
+      redirect_to signup_path
     end
   end
 
