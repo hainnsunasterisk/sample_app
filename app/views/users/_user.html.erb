@@ -1,0 +1,10 @@
+<li>
+  <%= gravatar_for user %>
+  <%= link_to user.name, user_path(locale, user) %>
+  <% if current_user.admin? && !current_user?(user) %>| 
+    <%=
+      link_to t(".delete"), user, method: :delete,
+      data: { confirm: t(".confirm") }
+    %>
+  <% end %>
+</li>

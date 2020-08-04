@@ -32,3 +32,7 @@ validations:
     password_maxlength: 15
 form:
   checkbox: "1"
+pagination:
+  per_page: 10
+gravatar:
+  link: "https://gravatar.com/emails"

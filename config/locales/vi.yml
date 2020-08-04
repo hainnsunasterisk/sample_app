@@ -71,6 +71,27 @@ vi:
     show:
       flash: "Không tìm thấy người dùng!"
       unauthorized: "Bạn phải đăng nhập trước!!"
+    edit:
+      update: "Sửa thông tin"
+      unauthorized: "Bạn phải đăng nhập trước !!"
+      forbidden: "Bạn không có quyền truy cập trang này"
+    update: 
+      success: "Tài khoản của bạn đã được cập nhật !!"
+      errors: "Có một lỗi gì đó đã xảy ra !!"
+    destroy: 
+      success: "Xóa thành công !!"
+    form:
+      signup: "Đăng ký"
+      username: "Tài khoản"
+      email: "Địa chỉ mail"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+      old_user: "Bạn đã có tài khoản? "
+      login: "Bấm vào đây !!"
+      update: "Cập nhật"
+    user:
+      delete: "Xóa luôn"
+      confirm: "Bạn có chắc muốn xóa không?"
   sessions:
     new:
       login: "Đăng nhập"
@@ -83,3 +104,10 @@ vi:
       danger: Đã có một lỗi xảy ra với tài khoản của bạn
     destroy: 
       flash: "Đăng xuất thành công!!"
+  helpers:
+    label:
+      user:
+        name: "Tài khoản"
+        email: "Địa chỉ email"
+        password: "Mật khẩu"
+        password_confirmation: "Xác nhận mật khẩu"
