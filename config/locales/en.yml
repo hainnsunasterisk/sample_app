@@ -67,6 +67,7 @@ en:
       login: "Click here !!"
     create:
       flash: Welcome to the Sample App, %{username}!
+      error: "Something errors !!"
     show:
       flash: "User not found !"
       unauthorized: "You must be logged in first !!"

@@ -17,6 +17,12 @@
       <%= form.password_field :password, class: "form-control", placeholder: t(".password"), autocomplete: "off" %>
     </div>
   </div>
+  <div class="col-sm-6 mt-3">
+    <%= form.label :remember_me, class: "checkbox inline" do %>
+      <%= form.check_box :remember_me %>
+      <span><%= t ".remember" %></span>
+    <% end %>
+  </div>
   <div class="form-group d-flex flex-column align-items-center">
     <div class="col-sm-4">
       <%= form.submit t(".login"), class: "btn btn-primary btn-lg" %>
