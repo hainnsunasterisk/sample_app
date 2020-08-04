@@ -16,9 +16,9 @@ class UsersController < ApplicationController
     @user = User.new user_params
 
     if @user.save
-      log_in @user
-      flash[:success] = t ".flash", username: @user.name
-      redirect_to user_path @user
+      @user.send_activation_email
+      flash[:info] = t ".success"
+      redirect_to root_url
     else
       render :new
     end
