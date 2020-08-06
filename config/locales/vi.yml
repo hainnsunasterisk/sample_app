@@ -104,6 +104,13 @@ vi:
       danger: Đã có một lỗi xảy ra với tài khoản của bạn
     destroy: 
       flash: "Đăng xuất thành công!!"
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      title: "Sample App"
+      greeting: "Hi"
+      detail: "Welcome to the Sample App! Click on the link below to activate your account"
+      link: "Active"
   helpers:
     label:
       user:

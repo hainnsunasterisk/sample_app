@@ -67,6 +67,7 @@ en:
       login: "Click here !!"
     create:
       flash: Welcome to the Sample App, %{username}!
+      errors: "Something errors !!"
       error: "Something errors !!"
     show:
       flash: "User not found !"
@@ -80,6 +81,7 @@ en:
       errors: "Something went errors !!"
     destroy: 
       success: "User deleted !!"
+      errors: "Something errors !!"
     form:
       signup: "Sign Up"
       username: "Username"
@@ -92,6 +94,10 @@ en:
     user:
       delete: "Delete"
       confirm: "Are you sure?"
+  account_activations:
+    edit:
+      activated_success: "Account activated!"
+      activated_unsuccess: "Invalid activation link"
   sessions:
     new:
       login: "Log In"
@@ -104,6 +110,13 @@ en:
       danger: There was something wrong with your account
     destroy: 
       flash: "You have logged out !!"
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      title: "Sample App"
+      greeting: "Hi"
+      detail: "Welcome to the Sample App! Click on the link below to activate your account"
+      link: "Active"
   helpers:
     label:
       user:
