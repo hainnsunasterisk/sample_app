@@ -19,3 +19,16 @@ User.create!(name: "Example User",
   activated: true,
   activated_at: Time.zone.now)
 end
+
+user = User.find.first
+30.times do
+  content = Faker::Lorem.sentence
+  user.microposts.create!(content: content)
+end
+
+users = User.all
+user = users.first
+following = users[2..20]
+followers = users[3..15]
+following.each{|followed| user.follow(followed)}
+followers.each{|follower| follower.follow(user)}

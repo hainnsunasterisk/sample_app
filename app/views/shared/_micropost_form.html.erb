@@ -1,0 +1,12 @@
+<%= form_for @micropost do |f| %>
+  <% if @micropost.errors.any? %>
+    <%= render "layouts/errors", obj: f.object %>
+  <% end %>
+  <div class="field">
+  <%= f.text_area :content, placeholder: t(".content") %>
+  </div>
+  <%= f.submit t("common.post"), class: "btn btn-primary" %>
+  <span class="image">
+    <%= f.file_field :image, accept: Settings.validations.micropost.content_type %>
+  </span>
+<% end %>

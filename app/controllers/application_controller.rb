@@ -9,4 +9,20 @@ class ApplicationController < ActionController::Base
   def default_url_options
     {locale: I18n.locale}
   end
+
+  def require_logged_in
+    return if logged_in?
+
+    store_location
+    flash[:danger] = t ".unauthorized"
+    redirect_to login_path locale
+  end
+
+  def find_user
+    @user = User.find_by id: params[:id]
+    return if @user
+
+    flash[:danger] = t ".flash"
+    redirect_to root_path
+  end
 end

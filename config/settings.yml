@@ -30,6 +30,12 @@ validations:
     email_maxlength: 255
     password_minlength: 6
     password_maxlength: 15
+  micropost:
+    content_maxlength: 140
+    resize_to_limit: 500
+    content_type: /%w(image/jpeg image/gif image/png)/
+    max_file_size: 5
+    image_type: "image/jpeg,image/gif,image/png"
 form:
   checkbox: "1"
 pagination:
@@ -38,3 +44,13 @@ gravatar:
   link: "https://gravatar.com/emails"
 time:
   expired: 2
+pages:
+  limit: 5
+size:
+  logo: 200
+  avatar:
+    default: 80
+    small: 50
+  image:
+    normal: 500
+  max_file_size: 5
