@@ -59,6 +59,7 @@ en:
       link_image: "https://secure.gravatar.com/avatar/%{gravatar_id}"
     index:
       users: "All Users"
+      microposts: "microposts"
       unauthorized: "You must be logged in first !!"
     new:
       signup: "Sign Up"
@@ -159,3 +160,8 @@ en:
         email: "Email"
         password: "Password"
         password_confirmation: "Confirm Password"
+  common:
+    post: "Post"
+    accept_image: "image/jpeg,image/gif,image/png"
+    errors: "Error"
+    success: "Successfully"

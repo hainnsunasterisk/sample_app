@@ -57,6 +57,10 @@ vi:
   users:
     helpers:
       link_image: "https://secure.gravatar.com/avatar/%{gravatar_id}"
+    index:
+      users: "All Users"
+      microposts: "microposts"
+      unauthorized: "You must be logged in first !!"
     new:
       signup: "ĐĂNG KÝ"
       username: "Tài khoản"
@@ -132,15 +136,15 @@ vi:
       password: "Password"
       password_confirmation: "Password confirmation"
       forbidden: "You are not authorized to do this action"
-      expire: "This link has been expired !!"
-      submit: "Reset"
+      expire: "Liên kết này đã hết hạn !!"
+      submit: "Lấy lại"
     update:
-      flash: "User not found !"
-      forbidden: "You are not authorized to do this action"
-      empty: "Password can't not be empty"
-      reset: "Password has been reset !!"
-      expire: "This link has been expired !!"
-      fail: "Reset password failed !!"
+      flash: "user không tồn tại !"
+      forbidden: "Bạn không có hành động này"
+      empty: "Mật khẩu khong được bỏ trống"
+      reset: "Mật khẩu đã được lấy lại !!"
+      expire: "Liên kết này đã hết hạn !!"
+      fail: "Lấy lại mật khẩu thất bại !!"
   helpers:
     label:
       user:
@@ -148,3 +152,8 @@ vi:
         email: "Địa chỉ email"
         password: "Mật khẩu"
         password_confirmation: "Xác nhận mật khẩu"
+  common:
+    post: "Đăng"
+    accept_image: "image/jpeg,image/gif,image/png"
+    errors: "Lỗi rồi bạn ơi!"
+    success: "Thanh công rồi!"
