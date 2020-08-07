@@ -6,6 +6,11 @@
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track": "reload" %>
     <%= javascript_pack_tag "application", "data-turbolinks-track": "reload" %>
+    <%= javascript_tag do %>
+      I18n.locale = "<%= I18n.locale %>"
+      I18n.translations = {}
+      I18n.translations["<%= I18n.locale %>"] = <%= raw I18n::JS.filtered_translations[I18n.locale].to_json %>
+    <% end %>
     <%= render "layouts/shim" %>
   </head>
 

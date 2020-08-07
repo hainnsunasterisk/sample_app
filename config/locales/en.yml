@@ -57,6 +57,10 @@ en:
   users:
     helpers:
       link_image: "https://secure.gravatar.com/avatar/%{gravatar_id}"
+    index:
+      users: "All Users"
+      microposts: "microposts"
+      unauthorized: "You must be logged in first !!"
     new:
       signup: "Sign Up"
       username: "Username"
@@ -65,10 +69,12 @@ en:
       password_confirmation: "Confirm Password"
       olduser: "Already registered? "
       login: "Click here !!"
+      unauthorized: "You must be logged in first !!"
     create:
       flash: Welcome to the Sample App, %{username}!
       errors: "Something errors !!"
       error: "Something errors !!"
+      forget: "Forget your password?"
     show:
       flash: "User not found !"
       unauthorized: "You must be logged in first !!"
@@ -105,9 +111,11 @@ en:
       password: "Password"
       newuser: "New user?"
       signup: "Sign up now!"
+      remember: "Remember me on this computer"
     create:
       success: Log in successfully, hello %{username}!
       danger: There was something wrong with your account
+      warning: "Account not activated. Check your email for the activation link."
     destroy: 
       flash: "You have logged out !!"
   user_mailer:
@@ -117,6 +125,34 @@ en:
       greeting: "Hi"
       detail: "Welcome to the Sample App! Click on the link below to activate your account"
       link: "Active"
+    password_reset:
+      title: "Password reset"
+      headline: "To reset your password click the link below:"
+      warning: This link will expire in 2 hours."
+      endline: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+  password_resets:
+    new:
+      email: "Email"
+      submit: "Submit"
+      forget: "Forgot password"
+    create:
+      info: "Email sent with password reset instructions"
+      danger: "Email address not found"
+    edit: 
+      reset: "Reset password"
+      flash: "User not found !"
+      password: "Password"
+      password_confirmation: "Password confirmation"
+      forbidden: "You are not authorized to do this action"
+      expire: "This link has been expired !!"
+      submit: "Reset"
+    update:
+      flash: "User not found !"
+      forbidden: "You are not authorized to do this action"
+      empty: "Password can't not be empty"
+      reset: "Password has been reset !!"
+      expire: "This link has been expired !!"
+      fail: "Reset password failed !!"
   helpers:
     label:
       user:
@@ -124,3 +160,8 @@ en:
         email: "Email"
         password: "Password"
         password_confirmation: "Confirm Password"
+  common:
+    post: "Post"
+    accept_image: "image/jpeg,image/gif,image/png"
+    errors: "Error"
+    success: "Successfully"

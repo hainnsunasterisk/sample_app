@@ -1,6 +1,6 @@
 <div class="row">
   <div class="col-12">
-    <%= form_with(model: @user, local: true, role: "form")  do |form| %>
+    <%= form_with model: @user, local: true, role: "form" do |form| %>
       <% if @user.errors.any? %>
         <%= render "layouts/errors", obj: @user %>
       <% end %>

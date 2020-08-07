@@ -5,7 +5,7 @@ class UsersController < ApplicationController
   before_action :admin_user, only: :destroy
 
   def index
-    @users = User.page(params[:page]).per 5
+    @users = User.page(params[:page]).per Settings.pages.limit
   end
 
   def new
@@ -24,7 +24,9 @@ class UsersController < ApplicationController
     end
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.page(params[:page]).per Settings.pages.limit
+  end
 
   def edit; end
 
@@ -60,14 +62,6 @@ class UsersController < ApplicationController
 
     flash[:danger] = t ".flash"
     redirect_to root_path
-  end
-
-  def require_logged_in
-    return if logged_in?
-
-    store_location
-    flash[:danger] = t ".unauthorized"
-    redirect_to login_path locale
   end
 
   def require_same_user

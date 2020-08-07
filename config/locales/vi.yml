@@ -57,6 +57,10 @@ vi:
   users:
     helpers:
       link_image: "https://secure.gravatar.com/avatar/%{gravatar_id}"
+    index:
+      users: "All Users"
+      microposts: "microposts"
+      unauthorized: "You must be logged in first !!"
     new:
       signup: "ĐĂNG KÝ"
       username: "Tài khoản"
@@ -99,9 +103,11 @@ vi:
       password: "Mật khẩu"
       newuser: "Tạo mới?"
       signup: "Đăng ký ngay!"
+      remember: "Remember me on this computer"
     create:
       success: Đăng nhập thành công, XIN CHÀO %{username}!
       danger: Đã có một lỗi xảy ra với tài khoản của bạn
+      warning: "Account not activated. Check your email for the activation link."
     destroy: 
       flash: "Đăng xuất thành công!!"
   user_mailer:
@@ -111,6 +117,34 @@ vi:
       greeting: "Hi"
       detail: "Welcome to the Sample App! Click on the link below to activate your account"
       link: "Active"
+    password_reset:
+      title: "Password reset"
+      headline: "To reset your password click the link below:"
+      warning: This link will expire in 2 hours."
+      endline: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+  password_resets:
+    new:
+      email: "Email"
+      submit: "Submit"
+      forget: "Forgot password"
+    create:
+      info: "Email sent with password reset instructions"
+      danger: "Email address not found"
+    edit: 
+      reset: "Reset password"
+      flash: "User not found !"
+      password: "Password"
+      password_confirmation: "Password confirmation"
+      forbidden: "You are not authorized to do this action"
+      expire: "Liên kết này đã hết hạn !!"
+      submit: "Lấy lại"
+    update:
+      flash: "user không tồn tại !"
+      forbidden: "Bạn không có hành động này"
+      empty: "Mật khẩu khong được bỏ trống"
+      reset: "Mật khẩu đã được lấy lại !!"
+      expire: "Liên kết này đã hết hạn !!"
+      fail: "Lấy lại mật khẩu thất bại !!"
   helpers:
     label:
       user:
@@ -118,3 +152,8 @@ vi:
         email: "Địa chỉ email"
         password: "Mật khẩu"
         password_confirmation: "Xác nhận mật khẩu"
+  common:
+    post: "Đăng"
+    accept_image: "image/jpeg,image/gif,image/png"
+    errors: "Lỗi rồi bạn ơi!"
+    success: "Thanh công rồi!"
