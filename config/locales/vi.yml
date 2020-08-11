@@ -58,9 +58,9 @@ vi:
     helpers:
       link_image: "https://secure.gravatar.com/avatar/%{gravatar_id}"
     index:
-      users: "All Users"
-      microposts: "microposts"
-      unauthorized: "You must be logged in first !!"
+      users: "Tất cả người dùng"
+      microposts: "Bản tin"
+      unauthorized: "Bạn phải đăng nhập trước !!"
     new:
       signup: "ĐĂNG KÝ"
       username: "Tài khoản"
@@ -103,39 +103,39 @@ vi:
       password: "Mật khẩu"
       newuser: "Tạo mới?"
       signup: "Đăng ký ngay!"
-      remember: "Remember me on this computer"
+      remember: "Ghi nhớ máy tính này"
     create:
       success: Đăng nhập thành công, XIN CHÀO %{username}!
       danger: Đã có một lỗi xảy ra với tài khoản của bạn
-      warning: "Account not activated. Check your email for the activation link."
+      warning: "Tài khoản chưa đc xác nhận, vui lòng kiểm tra lại mail"
     destroy: 
       flash: "Đăng xuất thành công!!"
   user_mailer:
     account_activation:
-      subject: "Account activation"
-      title: "Sample App"
-      greeting: "Hi"
-      detail: "Welcome to the Sample App! Click on the link below to activate your account"
-      link: "Active"
+      subject: "Tài khỏan víp"
+      title: "Ứng dụng mẫu"
+      greeting: "Xin chào"
+      detail: "Chào mừng đến với ứng dụng đơn giản, hãy bấm xuống link này để  kích hoạt tài khoản"
+      link: "Kích hoạt"
     password_reset:
-      title: "Password reset"
-      headline: "To reset your password click the link below:"
-      warning: This link will expire in 2 hours."
-      endline: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+      title: "Lấy lại mật khẩu"
+      headline: "Để  lấy lại mật khẩu vui lòng bấm xuống link dưới đây:"
+      warning: Link này chỉ có hiệu lực trong 2 giờ tới.
+      endline: "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ được giữ nguyên.."
   password_resets:
     new:
-      email: "Email"
-      submit: "Submit"
-      forget: "Forgot password"
+      email: "Địa chỉ mail"
+      submit: "Gửi"
+      forget: "Lấy lại mật khẩu"
     create:
-      info: "Email sent with password reset instructions"
-      danger: "Email address not found"
+      info: "Email được gửi với hướng dẫn đặt lại mật khẩu"
+      danger: "Email không tồn tại"
     edit: 
-      reset: "Reset password"
-      flash: "User not found !"
-      password: "Password"
-      password_confirmation: "Password confirmation"
-      forbidden: "You are not authorized to do this action"
+      reset: "Lấy lại mật khẩu"
+      flash: "Tài khoản không tồn tại !"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận lại mật khẩu"
+      forbidden: "Bạn không có quyền làm điều này"
       expire: "Liên kết này đã hết hạn !!"
       submit: "Lấy lại"
     update:
@@ -157,3 +157,8 @@ vi:
     accept_image: "image/jpeg,image/gif,image/png"
     errors: "Lỗi rồi bạn ơi!"
     success: "Thanh công rồi!"
+    unfollow: "Bỏ theo dõi"
+    follow: "Theo dõi"
+    following: "Đang theo dõi"
+    followers: "Bị theo dõi"
+    view_my_profile: "Xem trang cá nhân"

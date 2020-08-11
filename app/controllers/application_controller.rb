@@ -17,4 +17,12 @@ class ApplicationController < ActionController::Base
     flash[:danger] = t ".unauthorized"
     redirect_to login_path locale
   end
+
+  def find_user
+    @user = User.find_by id: params[:id]
+    return if @user
+
+    flash[:danger] = t ".flash"
+    redirect_to root_path
+  end
 end

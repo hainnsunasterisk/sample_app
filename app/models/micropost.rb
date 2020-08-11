@@ -6,6 +6,7 @@ class Micropost < ApplicationRecord
   delegate :name, to: :user, prefix: :user
 
   scope :by_created_at, -> { order(created_at: :desc) }
+  scope :find_by_user_ids, ->(user_ids){where user_id: user_ids}
   
   validates :user_id, presence: true
   validates :content, presence: true,

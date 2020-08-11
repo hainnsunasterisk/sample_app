@@ -165,3 +165,8 @@ en:
     accept_image: "image/jpeg,image/gif,image/png"
     errors: "Error"
     success: "Successfully"
+    unfollow: "Unfollow"
+    follow: "Follow"
+    following: "Following"
+    followers: "Followers"
+    view_my_profile: "View my profile"
